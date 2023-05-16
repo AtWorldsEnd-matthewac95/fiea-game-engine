@@ -1,0 +1,436 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Containers">
+      <UniqueIdentifier>{13c7c6f7-09eb-4fce-af74-6f736c5f9ea5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Misc">
+      <UniqueIdentifier>{523d19e6-e81a-4b50-83be-d47a690ce275}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Parse">
+      <UniqueIdentifier>{ba480695-bbd1-41bf-b2ab-38b9b98f8fe5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Parse\Derived">
+      <UniqueIdentifier>{5b79b37b-adb8-48e6-b279-5816f9cd2710}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Parse\Derived\ScopeJsonParse">
+      <UniqueIdentifier>{175afc1b-51cd-469f-b0c4-c12f9b3d94d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Factory">
+      <UniqueIdentifier>{455b8450-2331-4a78-a489-fd09ed15eec9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Time">
+      <UniqueIdentifier>{73ba56ae-28ed-497a-a971-e6e02d61f013}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Attributed">
+      <UniqueIdentifier>{c184f3af-59ad-40de-a774-5643ab0b5fcd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Attributed\Action">
+      <UniqueIdentifier>{aa4bc28b-bb9f-4fe4-9dc6-cecec0884c33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Algorithm">
+      <UniqueIdentifier>{8948684e-622f-4b7f-ad04-f9a531bb3c1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Events">
+      <UniqueIdentifier>{056d3795-4d95-4d39-85bb-4bd70827d76d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Gameplay">
+      <UniqueIdentifier>{8b6bbdf0-019b-482c-872b-f142c12cd25f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Events\Reaction">
+      <UniqueIdentifier>{9e783abb-a10a-4952-b1c4-7e66c835cc74}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(MSBuildThisFileDirectory)SList.h">
+      <Filter>Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)pch.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Vector.h">
+      <Filter>Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)DefaultEquality.h">
+      <Filter>Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)DefaultGrowCapacity.h">
+      <Filter>Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)HashMap.h">
+      <Filter>Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)DefaultHash.h">
+      <Filter>Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)DefaultEmplaceDefault.h">
+      <Filter>Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Datum.h">
+      <Filter>Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)RTTI.h">
+      <Filter>Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Scope.h">
+      <Filter>Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)IJsonParseHelper.h">
+      <Filter>Parse</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)JsonParseCoordinator.h">
+      <Filter>Parse</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)ParseCoordinator.h">
+      <Filter>Parse</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)ScopeParseWrapper.h">
+      <Filter>Parse\Derived</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Stack.h">
+      <Filter>Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)JsonNestedObjectParseHelper.h">
+      <Filter>Parse\Derived</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)TypeScopeJsonParseHelper.h">
+      <Filter>Parse\Derived\ScopeJsonParse</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)ScopeJsonParseHelper.h">
+      <Filter>Parse\Derived\ScopeJsonParse</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)ClassScopeJsonParseHelper.h">
+      <Filter>Parse\Derived\ScopeJsonParse</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Factory.h">
+      <Filter>Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)GameClock.h">
+      <Filter>Time</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)GameTime.h">
+      <Filter>Time</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Transform.h">
+      <Filter>Attributed</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)GameObject.h">
+      <Filter>Attributed</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Attributed.h">
+      <Filter>Attributed</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)AttributedSignatureRegistry.h">
+      <Filter>Attributed</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)ElementScopeJsonParseHelper.h">
+      <Filter>Parse\Derived\ScopeJsonParse</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)AllScopeJsonParseHelper.h">
+      <Filter>Parse\Derived\ScopeJsonParse</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Action.h">
+      <Filter>Attributed\Action</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)ActionList.h">
+      <Filter>Attributed\Action</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)ActionIf.h">
+      <Filter>Attributed\Action</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)ActionExpression.h">
+      <Filter>Attributed\Action</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)ScopeJsonKeyTokenTransmuter.h">
+      <Filter>Parse\Derived\ScopeJsonParse</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)IJsonValueTransmuter.h">
+      <Filter>Parse</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Algorithms.h">
+      <Filter>Algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)ShuntingYardParser.h">
+      <Filter>Algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)ReversePolishEvaluator.h">
+      <Filter>Algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)ActionIncrement.h">
+      <Filter>Attributed\Action</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)EventSubscriber.h">
+      <Filter>Events</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)IEventArgs.h">
+      <Filter>Events</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Event.h">
+      <Filter>Events</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)EventQueue.h">
+      <Filter>Events</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Reaction.h">
+      <Filter>Events\Reaction</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)GameplayState.h">
+      <Filter>Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)AttributedReaction.h">
+      <Filter>Events\Reaction</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)AttributedEventArgs.h">
+      <Filter>Events\Reaction</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)ActionEvent.h">
+      <Filter>Attributed\Action</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)ExpressionScopeJsonParseHelper.h">
+      <Filter>Parse\Derived\ScopeJsonParse</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="$(MSBuildThisFileDirectory)pch.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)DefaultGrowCapacity.cpp">
+      <Filter>Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)RTTI.cpp">
+      <Filter>Containers</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Datum.cpp">
+      <Filter>Containers</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Scope.cpp">
+      <Filter>Containers</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)IJsonParseHelper.cpp">
+      <Filter>Parse</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)JsonParseCoordinator.cpp">
+      <Filter>Parse</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)ParseCoordinator.cpp">
+      <Filter>Parse</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)ScopeParseWrapper.cpp">
+      <Filter>Parse\Derived</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)JsonNestedObjectParseHelper.cpp">
+      <Filter>Parse\Derived</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)TypeScopeJsonParseHelper.cpp">
+      <Filter>Parse\Derived\ScopeJsonParse</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)ScopeJsonParseHelper.cpp">
+      <Filter>Parse\Derived\ScopeJsonParse</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)ClassScopeJsonParseHelper.cpp">
+      <Filter>Parse\Derived\ScopeJsonParse</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)GameClock.cpp">
+      <Filter>Time</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Transform.cpp">
+      <Filter>Attributed</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)GameObject.cpp">
+      <Filter>Attributed</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Attributed.cpp">
+      <Filter>Attributed</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)AttributedSignatureRegistry.cpp">
+      <Filter>Attributed</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)AllScopeJsonParseHelper.cpp">
+      <Filter>Parse\Derived\ScopeJsonParse</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Action.cpp">
+      <Filter>Attributed\Action</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)ActionList.cpp">
+      <Filter>Attributed\Action</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)ActionIf.cpp">
+      <Filter>Attributed\Action</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)ActionExpression.cpp">
+      <Filter>Attributed\Action</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)ScopeJsonKeyTokenTransmuter.cpp">
+      <Filter>Parse\Derived\ScopeJsonParse</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)IJsonValueTransmuter.cpp">
+      <Filter>Parse</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Algorithms.cpp">
+      <Filter>Algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)ShuntingYardParser.cpp">
+      <Filter>Algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)ReversePolishEvaluator.cpp">
+      <Filter>Algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)ActionIncrement.cpp">
+      <Filter>Attributed\Action</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)IEventArgs.cpp">
+      <Filter>Events</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Event.cpp">
+      <Filter>Events</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)EventQueue.cpp">
+      <Filter>Events</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Reaction.cpp">
+      <Filter>Events\Reaction</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)GameplayState.cpp">
+      <Filter>Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)AttributedReaction.cpp">
+      <Filter>Events\Reaction</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)AttributedEventArgs.cpp">
+      <Filter>Events\Reaction</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)ActionEvent.cpp">
+      <Filter>Attributed\Action</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)DefaultHash.cpp">
+      <Filter>Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)ExpressionScopeJsonParseHelper.cpp">
+      <Filter>Parse\Derived\ScopeJsonParse</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="$(MSBuildThisFileDirectory)SList.inl">
+      <Filter>Containers</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Vector.inl">
+      <Filter>Containers</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)HashMap.inl">
+      <Filter>Containers</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)DefaultEmplaceDefault.inl">
+      <Filter>Misc</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)DefaultHash.inl">
+      <Filter>Misc</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)RTTI.inl">
+      <Filter>Containers</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Datum.inl">
+      <Filter>Containers</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Scope.inl">
+      <Filter>Containers</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)ParseCoordinator.inl">
+      <Filter>Parse</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)JsonParseCoordinator.inl">
+      <Filter>Parse</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)IJsonParseHelper.inl">
+      <Filter>Parse</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)ScopeParseWrapper.inl">
+      <Filter>Parse\Derived</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)JsonNestedObjectParseHelper.inl">
+      <Filter>Parse\Derived</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)TypeScopeJsonParseHelper.inl">
+      <Filter>Parse\Derived\ScopeJsonParse</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)ClassScopeJsonParseHelper.inl">
+      <Filter>Parse\Derived\ScopeJsonParse</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Factory.inl">
+      <Filter>Factory</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)GameClock.inl">
+      <Filter>Time</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)GameTime.inl">
+      <Filter>Time</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Transform.inl">
+      <Filter>Attributed</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)GameObject.inl">
+      <Filter>Attributed</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Attributed.inl">
+      <Filter>Attributed</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)AttributedSignatureRegistry.inl">
+      <Filter>Attributed</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)ElementScopeJsonParseHelper.inl">
+      <Filter>Parse\Derived\ScopeJsonParse</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)AllScopeJsonParseHelper.inl">
+      <Filter>Parse\Derived\ScopeJsonParse</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Action.inl">
+      <Filter>Attributed\Action</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)ActionList.inl">
+      <Filter>Attributed\Action</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)ActionIf.inl">
+      <Filter>Attributed\Action</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)ActionExpression.inl">
+      <Filter>Attributed\Action</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)ScopeJsonKeyTokenTransmuter.inl">
+      <Filter>Parse\Derived\ScopeJsonParse</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)ShuntingYardParser.inl">
+      <Filter>Algorithm</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)ReversePolishEvaluator.inl">
+      <Filter>Algorithm</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)ActionIncrement.inl">
+      <Filter>Attributed\Action</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)EventSubscriber.inl">
+      <Filter>Events</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Event.inl">
+      <Filter>Events</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)EventQueue.inl">
+      <Filter>Events</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Reaction.inl">
+      <Filter>Events\Reaction</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)GameplayState.inl">
+      <Filter>Gameplay</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)AttributedReaction.inl">
+      <Filter>Events\Reaction</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)AttributedEventArgs.inl">
+      <Filter>Events\Reaction</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)ActionEvent.inl">
+      <Filter>Attributed\Action</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)DefaultEquality.inl">
+      <Filter>Misc</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)ExpressionScopeJsonParseHelper.inl">
+      <Filter>Parse\Derived\ScopeJsonParse</Filter>
+    </None>
+  </ItemGroup>
+</Project>
